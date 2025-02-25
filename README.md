@@ -1,43 +1,61 @@
-# FengShui Koi Consulting System
+🌊 FengShui Koi Consulting System
 
-FengShui Koi Consulting System là một hệ thống tư vấn phong thủy và độ phù hợp cho cá Koi và hồ, sử dụng **Java Spring Boot** cho Backend và **React** cho Frontend. Dự án này cũng sử dụng **SQL Server** làm cơ sở dữ liệu chính.
+FengShui Koi Consulting System is a consultation system that provides Feng Shui analysis and compatibility evaluation for Koi fish and ponds. The project is built using Java Spring Boot for the backend and React for the frontend, with SQL Server as the primary database.
 
----
+🚀 System Requirements
 
-## **Yêu cầu hệ thống**
+🔧 Required Software
 
-### **Phần mềm cần thiết**
-- **Java 17 hoặc mới hơn**
-- **Apache Maven 3.8.x**
-- **Node.js v16.x hoặc mới hơn**
-- **NPM (được cài sẵn với Node.js)**
-- **SQL Server (2019 hoặc mới hơn)**
+Java 17 or later
 
----
+Apache Maven 3.8.x
 
-## **Hướng dẫn cài đặt**
+Node.js v16.x or later
 
-### **Backend: huy-main-be**
+NPM (included with Node.js)
 
-#### **Cài đặt và chạy Backend**
-localhost:9090
-1. **Cài đặt các phụ thuộc và build dự án:**
+SQL Server (2019 or later)
+
+🛠 Installation Guide
+
+🎯 Backend: huy-main-be
+
+Setup and Run Backend
+
+📍 Runs on localhost:9090
+
+Install dependencies and build the project:
+
 mvn clean install
-2. **Chạy ứng dụng Spring Boot:**
+
+Start the Spring Boot application:
+
 mvn spring-boot:run
 
-### **Frontend: mainFE-HUY**
+🎨 Frontend: mainFE-HUY
 
-#### **Cài đặt và chạy FrontEnd**
-localhost:3000
-1. **Cài đặt các phụ thuộc và build dự án:**
+Setup and Run Frontend
+
+📍 Runs on localhost:3000
+
+Install dependencies and build the project:
+
 npm install
-2. **Chạy ứng dụng React:**
--  npm start
--  npm run dev
 
-### **SQL Server: FengShuiKoi.sql**
+Start the React application:
 
-##### **Lưu ý:** Nếu bị lỗi BackEnd liên quan đến firebase (mục notification), hãy liên hệ chúng tôi để được giúp đỡ.
----
-Created By: Phạm Đăng Khôi (owner repo)
+npm start  
+# or use
+npm run dev
+
+🗄️ Database: FengShuiKoi.sql
+
+Ensure that SQL Server is running and properly configured before launching the backend.
+
+⚠️ Troubleshooting
+
+If you encounter issues related to Firebase notifications, please contact us for support.
+
+📌 Created By
+
+Phan Quang Huy (Technical Leader)
